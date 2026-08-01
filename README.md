@@ -230,32 +230,48 @@ The evaluated machine learning models demonstrated the feasibility of decoding l
 
 ---
 
-# Neurophysiological Analysis
+# Lessons Learned
 
-The project also investigated:
+This project strengthened both my technical and analytical skills by exposing me to the complete lifecycle of a biomedical data analysis project.
 
-- Power Spectral Density
-- Time-Frequency Analysis
-- ERD/ERS Maps
-- Topographic Brain Maps
+Some of the most valuable lessons I learned include:
 
-These analyses provided physiological interpretation beyond classification performance.
+- Designing and implementing a reproducible EEG acquisition protocol.
+- Understanding how preprocessing decisions directly influence signal quality and model performance.
+- Applying feature engineering techniques based on neurophysiological knowledge rather than relying solely on machine learning algorithms.
+- Evaluating classification models using cross-validation and interpreting their performance beyond overall accuracy.
+- Appreciating the importance of clear technical documentation and reproducible analytical workflows when working on collaborative research projects.
+
+One of the most important takeaways from this project was realizing that successful biomedical data analysis depends not only on selecting an appropriate machine learning model, but also on careful experimental design, high-quality data preprocessing, and thoughtful interpretation of the results.
 
 ---
 
 # Skills Demonstrated
 
-| Skill | Evidence |
-|--------|----------|
-| Biomedical Signal Processing | EEG preprocessing pipeline |
-| Data Cleaning | Filtering and artifact reduction |
-| Feature Engineering | Frequency-domain feature extraction |
-| Machine Learning | Decision Trees and LDA |
-| Model Validation | 5-Fold Cross Validation |
-| Data Visualization | Spectral analysis and topographic maps |
-| MATLAB Programming | Complete analytical pipeline |
-| Experimental Design | EEG acquisition protocol |
-| Technical Documentation | GitHub project documentation |
+# Skills Demonstrated
+
+| Technical Skills | Data Analytics Skills |
+|------------------|-----------------------|
+| MATLAB | Data Cleaning |
+| FieldTrip Toolbox | Signal Processing |
+| EEG Analysis | Feature Engineering |
+| Machine Learning | Model Evaluation |
+| Decision Trees | Cross Validation |
+| Linear Discriminant Analysis | Data Visualization |
+| Git & GitHub | Technical Documentation |
+| Scientific Research | Analytical Thinking |
+
+---
+
+# Future Work
+
+Potential improvements include:
+
+- Evaluation using larger datasets.
+- Deep learning approaches.
+- Subject-independent classification.
+- Real-time BCI implementation.
+- Additional feature selection techniques.
 
 ---
 
@@ -276,15 +292,17 @@ These analyses provided physiological interpretation beyond classification perfo
 
 ---
 
-# Future Work
+# My Contributions
 
-Potential improvements include:
+As part of a multidisciplinary team, my primary responsibilities included:
 
-- Evaluation using larger datasets.
-- Deep learning approaches.
-- Subject-independent classification.
-- Real-time BCI implementation.
-- Additional feature selection techniques.
+- Supporting the EEG acquisition setup and channel verification.
+- Reviewing the consistency of task labels and rest periods.
+- Contributing to the ERD/ERS topographic analysis.
+- Reviewing the literature related to Mu and Beta rhythms.
+- Participating in the interpretation of the results and the development of the project conclusions.
+
+In addition, I independently redesigned and documented this repository as part of my professional Biomedical Data Analytics portfolio.
 
 ---
 
@@ -306,4 +324,16 @@ This project was developed as part of the Design and Development in Neuroenginee
 
 # References
 
-*(To be completed with the scientific articles used throughout the project.)*
+The methodology, preprocessing pipeline, and interpretation of the results were supported by the following scientific publications:
+
+1. Pfurtscheller, G., & Neuper, C. (2001). *Motor imagery and direct brain-computer communication*. Proceedings of the IEEE, 89(7), 1123–1134. https://doi.org/10.1109/5.939829
+
+2. Langhorne, P., Coupar, F., & Pollock, A. (2009). *Motor recovery after stroke: A systematic review*. The Lancet Neurology, 8(8), 741–754. https://doi.org/10.1016/S1474-4422(09)70150-4
+
+3. Ward, N. S. (2017). *Restoring brain function after stroke—Bridging the gap between animals and humans*. Nature Reviews Neurology, 13(4), 244–255. https://doi.org/10.1038/nrneurol.2017.34
+
+4. Hsu, W.-C., Lin, L.-F., Chou, C.-W., Hsiao, Y.-T., & Liu, Y.-H. (2017). *EEG classification of imaginary lower limb stepping movements based on fuzzy support vector machine with kernel-induced membership function*. International Journal of Fuzzy Systems, 19(2), 566–579. https://doi.org/10.1007/s40815-016-0259-9
+
+5. Tariq, M., Trivailo, P. M., & Simic, M. (2020). *Mu-Beta event-related (de)synchronization and EEG classification of left-right foot dorsiflexion kinaesthetic motor imagery for BCI*. PLOS ONE, 15(3), e0230184. https://doi.org/10.1371/journal.pone.0230184
+
+6. Gu, L., Yu, Z., Ma, T., Wang, H., Li, Z., & Fan, H. (2020). *EEG-based classification of lower limb motor imagery with brain network analysis*. Neuroscience, 436, 93–109. https://doi.org/10.1016/j.neuroscience.2020.04.006
