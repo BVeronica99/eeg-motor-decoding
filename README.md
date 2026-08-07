@@ -275,19 +275,20 @@ Potential improvements include:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
-.
-├── assets/
-│   └── images/
-├── data/
-├── figures/
-├── notebooks/
-├── references/
-├── report/
-├── README.md
-└── PROJECT_PLAN.md
+src/
+│
+├── main.m
+│
+├── preprocessing/
+│
+├── analysis/
+│
+├── models/
+│
+└── utils/
 ```
 
 ---
